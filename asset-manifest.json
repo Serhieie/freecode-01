@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/freecode-01/static/css/main.f855e6bc.css",
+    "main.js": "/freecode-01/static/js/main.f0023213.js",
+    "static/js/787.414444e3.chunk.js": "/freecode-01/static/js/787.414444e3.chunk.js",
+    "static/media/logo.svg": "/freecode-01/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/freecode-01/index.html",
+    "main.f855e6bc.css.map": "/freecode-01/static/css/main.f855e6bc.css.map",
+    "main.f0023213.js.map": "/freecode-01/static/js/main.f0023213.js.map",
+    "787.414444e3.chunk.js.map": "/freecode-01/static/js/787.414444e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f0023213.js"
+  ]
+}
