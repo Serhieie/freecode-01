@@ -8,20 +8,14 @@ import { RiTwitterXLine } from "react-icons/ri";
 import { TiSocialTumblerCircular } from "react-icons/ti";
 
 export const Buttons = ({ handleClick, color, quote, author }) => {
-  const postToTwitter = () => {
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-      `" ${quote} " 
-      ${author}`
-    )}`;
-    window.open(twitterUrl, "_blank");
-  };
-
   return (
     <ButtonsWrapper>
       <PostInSocialTwitter
-        onClick={postToTwitter}
-        href="https://twitter.com/"
         id="tweet-quote"
+        href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
+          `" ${quote} " 
+          ${author}`
+        )}`}
         target="_blank"
         rel="noreferrer"
         color={color}
@@ -30,7 +24,6 @@ export const Buttons = ({ handleClick, color, quote, author }) => {
       </PostInSocialTwitter>
       <PostInSocialTumblr
         href="https://tumblr.com/"
-        id="tweet-quote"
         target="_blank"
         rel="noreferrer"
         color={color}
