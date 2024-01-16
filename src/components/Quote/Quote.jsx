@@ -8,7 +8,7 @@ export const Quote = ({ quote, author, color, visible }) => {
         <BiSolidQuoteLeft /> {quote}
       </QuoteContent>
       <AuthorName color={color} id="author" visible={visible}>
-        {author}
+        - {author}
       </AuthorName>
     </>
   );
