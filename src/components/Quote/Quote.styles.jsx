@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
 export const QuoteContent = styled.p`
+  text-align: center;
   font-size: 38px;
   font-weight: 700;
   color: ${(props) => `${props.color}`};
