@@ -8,6 +8,8 @@ export const ButtonsWrapper = styled.div`
   gap: 10px;
   border-radius: 4px;
   margin-top: 40px;
+  justify-content: center;
+
   @media (max-width: 768px) {
     gap: 4px;
   }

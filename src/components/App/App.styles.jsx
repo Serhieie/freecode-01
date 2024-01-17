@@ -4,6 +4,7 @@ export const QuoteCardWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 
   width: 54%;
 
@@ -25,9 +26,11 @@ export const QuoteCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 
   width: 98%;
   padding: 40px;
+  min-height: 290px;
 
   border-radius: 10px;
 
